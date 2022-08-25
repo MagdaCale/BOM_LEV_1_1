@@ -26,7 +26,7 @@ let number = 10
 
 const feierabend = () => {
     if(number === 0){
-        console.log('Feierabend')
+        console.log('Yuhu, Feierabend')
         clearInterval(myInterval)
     }else{
         console.log(number)
